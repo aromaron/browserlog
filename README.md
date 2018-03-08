@@ -4,7 +4,7 @@ This project has been archived and its development halted. I don't have much int
 
 # Browserlog
 
-[![Build Status](https://travis-ci.org/dieb/browserlog.svg?branch=master)](https://travis-ci.org/dieb/browserlog)
+[![Build Status](https://travis-ci.org/aromaron/browserlog.svg?branch=master)](https://travis-ci.org/aromaron/browserlog)
 [![Dependency Status](https://www.versioneye.com/user/projects/5380ec4f14c158fd78000056/badge.svg)](https://www.versioneye.com/user/projects/5380ec4f14c158fd78000056)
 [![Code Climate](https://img.shields.io/codeclimate/github/dieb/browserlog.svg)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/dieb/browserlog/badge.png?branch=master)](https://coveralls.io/r/dieb/browserlog?branch=master)
