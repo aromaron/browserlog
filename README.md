@@ -5,13 +5,11 @@ This project has been archived and its development halted. I don't have much int
 # Browserlog
 
 [![Build Status](https://travis-ci.org/aromaron/browserlog.svg?branch=master)](https://travis-ci.org/aromaron/browserlog)
-[![Dependency Status](https://www.versioneye.com/user/projects/5380ec4f14c158fd78000056/badge.svg)](https://www.versioneye.com/user/projects/5380ec4f14c158fd78000056)
-[![Code Climate](https://img.shields.io/codeclimate/github/dieb/browserlog.svg)][codeclimate]
-[![Coverage Status](https://coveralls.io/repos/dieb/browserlog/badge.png?branch=master)](https://coveralls.io/r/dieb/browserlog?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2138ff84a3a51ae76871/maintainability)](https://codeclimate.com/github/aromaron/browserlog/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2138ff84a3a51ae76871/test_coverage)](https://codeclimate.com/github/aromaron/browserlog/test_coverage)
 
-[travis]: http://travis-ci.org/dieb/browserlog
-[codeclimate]: https://codeclimate.com/github/dieb/browserlog
-[coveralls]: https://coveralls.io/r/dieb/browserlog
+[travis]: http://travis-ci.org/aromaron/browserlog
+[codeclimate]: https://codeclimate.com/github/aromaron/browserlog
 
 Browserlog is a live web log viewer for rails apps.
 
