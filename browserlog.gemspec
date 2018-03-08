@@ -9,9 +9,9 @@ require 'browserlog/version'
 Gem::Specification.new do |s|
   s.name        = 'browserlog'
   s.version     = Browserlog::VERSION
-  s.authors     = ['Andre Dieb Martins']
-  s.email       = ['andre.dieb@gmail.com']
-  s.homepage    = 'https://github.com/dieb/browserlog'
+  s.authors     = ['Andre Dieb Martins, Nora Gabriela Alvarado Mora']
+  s.email       = ['noragmora@gmail.com']
+  s.homepage    = 'https://github.com/aromaron/browserlog'
   s.summary     = 'Watch rails logs live on the browser.'
   s.description = 'Browserlog is a live web log viewer for rails apps.'
   s.license     = 'MIT'
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
                 'README.rdoc']
   s.test_files = Dir['spec/**/*']
 
-  s.add_dependency 'rails', '>= 3.2.18'
+  s.add_dependency 'rails', '>=5.0.0'
   s.add_dependency 'jquery-rails', '>= 3'
   s.add_development_dependency 'rspec-rails', '~> 2'
 end
