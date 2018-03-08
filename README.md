@@ -7,6 +7,7 @@ This project has been archived and its development halted. I don't have much int
 [![Build Status](https://travis-ci.org/aromaron/browserlog.svg?branch=master)](https://travis-ci.org/aromaron/browserlog)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2138ff84a3a51ae76871/maintainability)](https://codeclimate.com/github/aromaron/browserlog/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2138ff84a3a51ae76871/test_coverage)](https://codeclimate.com/github/aromaron/browserlog/test_coverage)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/aromaron/browserlog.svg)](https://beta.gemnasium.com/projects/github.com/aromaron/browserlog)
 
 [travis]: http://travis-ci.org/aromaron/browserlog
 [codeclimate]: https://codeclimate.com/github/aromaron/browserlog
