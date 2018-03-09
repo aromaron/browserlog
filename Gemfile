@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 # development dependencies will be added by default to the :development group.
 gemspec
 
-gem 'coveralls', require: false
-
+gem 'pry'
+gem 'pry-rails'
 group :test do
   gem 'rubocop'
   gem 'sqlite3'

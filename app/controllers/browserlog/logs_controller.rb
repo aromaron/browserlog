@@ -1,17 +1,17 @@
 module Browserlog
   class LogsController < ApplicationController
-    before_filter :check_env
-    before_filter :check_auth
+    before_action :check_env
+    before_action :check_auth
 
     layout 'browserlog/application'
 
     def index
-      @filename = "#{params[:env]}.log"
+      @filename = "#{Rails.env}.log"
       @filepath = Rails.root.join("log/#{@filename}")
     end
 
     def changes
-      lines, last_line_number = reader.read(offset: params[:currentLine].to_i, log_file_name: params[:env])
+      lines, last_line_number = reader.read(offset: params[:currentLine].to_i, log_file_name: Rails.env.to_s)
 
       respond_to do |format|
         format.json do
@@ -34,7 +34,7 @@ module Browserlog
     end
 
     def check_env
-      raise unless Browserlog.config.allowed_log_files.include?(params[:env])
+      raise unless Browserlog.config.allowed_log_files.include?(Rails.env.to_s)
     end
 
     def check_auth

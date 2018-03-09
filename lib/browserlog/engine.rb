@@ -23,7 +23,9 @@ module Browserlog
         end
       when 4
         Rails.logger.silence { super }
-      end
+      when 5
+        Rails.logger.silence { super }
+       end
     end
 
     def silence

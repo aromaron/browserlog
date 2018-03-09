@@ -1,4 +1,4 @@
 Browserlog::Engine.routes.draw do
-  get ':env', to: 'logs#index'
-  get ':env/changes', to: 'logs#changes'
+  root :to => 'logs#index'
+  get '/changes.json', to: 'logs#changes', format: :json
 end
